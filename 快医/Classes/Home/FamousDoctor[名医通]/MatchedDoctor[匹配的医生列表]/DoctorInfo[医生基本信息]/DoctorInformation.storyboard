@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PY6-MI-SFM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Doctor Information Controller-->
+        <scene sceneID="Gjz-5L-Ym2">
+            <objects>
+                <viewController id="PY6-MI-SFM" customClass="KKDoctorInformationController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FFt-7D-sHj"/>
+                        <viewControllerLayoutGuide type="bottom" id="kr5-rL-XVz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fqe-1b-bOV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userHand" translatesAutoresizingMaskIntoConstraints="NO" id="QCC-e0-ozk">
+                                <rect key="frame" x="148" y="61" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Fzc-vd-iqy"/>
+                                    <constraint firstAttribute="height" constant="80" id="uot-WY-a3E"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="任万华" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuL-of-ldL">
+                                <rect key="frame" x="131" y="140" width="51" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="7ZS-g9-H81"/>
+                                    <constraint firstAttribute="width" constant="51" id="GXc-z0-RFv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主任医师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEe-Gv-Y6m">
+                                <rect key="frame" x="190" y="140" width="70" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="iYw-PS-qWZ"/>
+                                    <constraint firstAttribute="width" constant="70" id="xqC-MS-ijS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.2057892628205128" green="0.2057892628205128" blue="0.2057892628205128" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京协和医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQf-eF-SBX">
+                                <rect key="frame" x="98" y="164" width="117" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Ar-Z5-eKh"/>
+                                    <constraint firstAttribute="width" constant="117" id="Zn9-xn-ELj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.058823529411764705" green="0.5725490196078431" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="心血管内科" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Jf-3a-rNi">
+                                <rect key="frame" x="199" y="165" width="76" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="PG7-Jz-svz"/>
+                                    <constraint firstAttribute="width" constant="76" id="WaB-pt-MIa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.57254901960000004" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gp8-Er-gFS">
+                                <rect key="frame" x="27" y="393" width="322" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="Ql4-GJ-f6S"/>
+                                    <constraint firstAttribute="height" constant="181" id="SsL-rh-DGT"/>
+                                </constraints>
+                                <string key="text">简介：   感染性病科科主任，主任医师，医学博士，山东大学博士生导师。近五年主持山东省自然科学基金项目2项，山东省科技厅资助1项；参与国家自然科学基金1项，省科委优秀中青年科学家基金3项，山东省科技厅重点攻关项目1项，国际交流项目1项。参加国家科技重大专项课题分课题合作1项。在国内外期刊发表论文40余篇，出版专著4部，其中作为副主编2部，参编2部。 现任山东省医师协会感染科医师分会主任委员、山东省医学会肝病学分会第一副主任委员。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="userHand" translatesAutoresizingMaskIntoConstraints="NO" id="Y6A-3Q-2Md">
+                                <rect key="frame" x="-74" y="263" width="27" height="26"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="擅长 ：   擅长各类病毒性、酒精性、自身免疫性、药物性、脂肪性等各种肝炎、肝硬化、肝癌和疑难疾病的诊断治疗。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub7-EF-mzt">
+                                <rect key="frame" x="27" y="307" width="322" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="8aQ-o9-9Mn"/>
+                                    <constraint firstAttribute="width" constant="322" id="Hg5-RW-Xf4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="infoIcon" translatesAutoresizingMaskIntoConstraints="NO" id="9Yz-e9-hNA">
+                                <rect key="frame" x="27" y="198" width="322" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Zm1-Ki-jDH"/>
+                                    <constraint firstAttribute="width" constant="322" id="atm-t3-SN8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Yz-e9-hNA" firstAttribute="top" secondItem="fqe-1b-bOV" secondAttribute="top" constant="198" id="03Q-gn-2WZ"/>
+                            <constraint firstItem="ub7-EF-mzt" firstAttribute="top" secondItem="fqe-1b-bOV" secondAttribute="top" constant="307" id="2Pa-sv-va3"/>
+                            <constraint firstItem="ZEe-Gv-Y6m" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" constant="37.5" id="6au-am-QtY"/>
+                            <constraint firstItem="5Jf-3a-rNi" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" constant="49.5" id="Vqb-8s-fpq"/>
+                            <constraint firstItem="5Jf-3a-rNi" firstAttribute="top" secondItem="ZEe-Gv-Y6m" secondAttribute="bottom" constant="4.5" id="YH2-QC-dPF"/>
+                            <constraint firstItem="cQf-eF-SBX" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" constant="-31" id="da7-2v-AH2"/>
+                            <constraint firstItem="ZEe-Gv-Y6m" firstAttribute="top" secondItem="FFt-7D-sHj" secondAttribute="bottom" constant="120" id="dpJ-u8-eny"/>
+                            <constraint firstItem="WuL-of-ldL" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" constant="-31" id="fQV-3g-GMI"/>
+                            <constraint firstItem="QCC-e0-ozk" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" id="gNI-o7-Tx0"/>
+                            <constraint firstItem="gp8-Er-gFS" firstAttribute="top" secondItem="fqe-1b-bOV" secondAttribute="top" constant="393" id="gpu-mI-FXG"/>
+                            <constraint firstItem="gp8-Er-gFS" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" id="mAj-F6-ztA"/>
+                            <constraint firstItem="QCC-e0-ozk" firstAttribute="top" secondItem="FFt-7D-sHj" secondAttribute="bottom" constant="41" id="oOf-aP-d5x"/>
+                            <constraint firstItem="WuL-of-ldL" firstAttribute="top" secondItem="FFt-7D-sHj" secondAttribute="bottom" constant="120" id="u5Q-dv-Vpd"/>
+                            <constraint firstItem="ub7-EF-mzt" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" id="ub7-G8-80f"/>
+                            <constraint firstItem="9Yz-e9-hNA" firstAttribute="centerX" secondItem="fqe-1b-bOV" secondAttribute="centerX" id="umw-Zi-P6z"/>
+                            <constraint firstItem="cQf-eF-SBX" firstAttribute="top" secondItem="ZEe-Gv-Y6m" secondAttribute="bottom" constant="3.5" id="xfZ-7N-GBg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="userHandImageView" destination="QCC-e0-ozk" id="4or-mT-nuG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sFy-qL-mpY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227.5" y="298.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="infoIcon" width="670" height="252"/>
+        <image name="userHand" width="166" height="164"/>
+    </resources>
+</document>

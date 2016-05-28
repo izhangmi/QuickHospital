@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>time</key>
+		<string>昨天 12 : 00</string>
+		<key>imageName</key>
+		<string></string>
+		<key>isDoctor</key>
+		<true/>
+		<key>Textmessage</key>
+		<string>王先生医生已经接诊，现在可以开始交流了，首诊免费咨询时间7天</string>
+		<key>iconName</key>
+		<string>user_default</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>昨天 12 : 00</string>
+		<key>imageName</key>
+		<string>bingli</string>
+		<key>isDoctor</key>
+		<false/>
+		<key>Textmessage</key>
+		<string>检查病历1</string>
+		<key>iconName</key>
+		<string>user_default</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>昨天 17:00</string>
+		<key>imageName</key>
+		<string>bingli</string>
+		<key>isDoctor</key>
+		<false/>
+		<key>Textmessage</key>
+		<string>检查病历1</string>
+		<key>iconName</key>
+		<string>user_default</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>昨天 17:00</string>
+		<key>imageName</key>
+		<string></string>
+		<key>isDoctor</key>
+		<false/>
+		<key>Textmessage</key>
+		<string>医生,我有病</string>
+		<key>iconName</key>
+		<string>user_default</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>昨天 17:00</string>
+		<key>imageName</key>
+		<string></string>
+		<key>isDoctor</key>
+		<true/>
+		<key>Textmessage</key>
+		<string>我有药</string>
+		<key>iconName</key>
+		<string>user_default</string>
+	</dict>
+</array>
+</plist>

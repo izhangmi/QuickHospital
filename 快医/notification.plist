@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>iconName</key>
+		<string>xuanzhong</string>
+		<key>title</key>
+		<string>新增医院通知</string>
+		<key>detail</key>
+		<string>新增可挂号医院：北京三甲医院、北京军医院、北京第三医院、北京回龙观医院。</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>xuanzhong</string>
+		<key>title</key>
+		<string>新增医院通知</string>
+		<key>detail</key>
+		<string>新增可挂号医院：北京协和医院、北京医院、北京同仁堂医院、北京三甲医院、北京军医院、北京第三医院、北京回龙观医院。</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>xuanzhong</string>
+		<key>title</key>
+		<string>新增医院通知</string>
+		<key>detail</key>
+		<string>新增可挂号医院：北京协和医院、北京医院、北京同仁堂医院、北京三甲医院、北京军医院、北京第三医院、北京回龙观医院。</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>xuanzhong</string>
+		<key>title</key>
+		<string>新增医院通知</string>
+		<key>detail</key>
+		<string>新增可挂号医院：北京协和医院、北京医院、北京同仁堂医院、北京三甲医院、北京军医院、北京第三医院、北京回龙观医院。</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>xuanzhong</string>
+		<key>title</key>
+		<string>新增医院通知</string>
+		<key>detail</key>
+		<string>新增可挂号医院：北京协和医院、北京医院、北京同仁堂医院、北京三甲医院、北京军医院、北京第三医院、北京回龙观医院。</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>HMHeader</key>
+		<string></string>
+		<key>HMFooter</key>
+		<string>开启后,当有新的中奖订单,打开应用时显示动画.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>联系客服</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>检查更新</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>用户协议</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

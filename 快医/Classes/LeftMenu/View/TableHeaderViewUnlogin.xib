@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TableHeaderViewUnlogin">
+            <rect key="frame" x="0.0" y="0.0" width="287" height="180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0D4-cg-KF8">
+                    <rect key="frame" x="15" y="179" width="280" height="1"/>
+                    <color key="backgroundColor" red="0.73725490196078436" green="0.72941176470588232" blue="0.75686274509803919" alpha="0.79722521551724135" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqV-II-28L">
+                    <rect key="frame" x="162" y="125" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.11764705882352941" green="0.81176470588235294" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="9Gy-6i-iVP"/>
+                        <constraint firstAttribute="height" constant="30" id="iIC-2O-gSH"/>
+                    </constraints>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="registerButtonClk:" destination="iN0-l3-epB" eventType="touchUpInside" id="cPv-II-f09"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSC-vt-D8H">
+                    <rect key="frame" x="45" y="125" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.11764705882352941" green="0.81176470588235294" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="2Hu-Ai-cpn"/>
+                        <constraint firstAttribute="height" constant="30" id="zqK-78-x6V"/>
+                    </constraints>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonClk:" destination="iN0-l3-epB" eventType="touchUpInside" id="SI4-EL-vx6"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_default" translatesAutoresizingMaskIntoConstraints="NO" id="caR-kG-hHy">
+                    <rect key="frame" x="103" y="26" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Vhz-Ic-ouI"/>
+                        <constraint firstAttribute="height" constant="80" id="exq-dF-dUl"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pqV-II-28L" secondAttribute="bottom" constant="25" id="Ghb-IJ-osg"/>
+                <constraint firstItem="caR-kG-hHy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-24" id="Gi5-AV-mg9"/>
+                <constraint firstAttribute="bottom" secondItem="uSC-vt-D8H" secondAttribute="bottom" constant="25" id="LHE-oi-waV"/>
+                <constraint firstItem="caR-kG-hHy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Otj-Kg-BQR"/>
+                <constraint firstAttribute="trailing" secondItem="pqV-II-28L" secondAttribute="trailing" constant="45" id="brH-Pg-UA7"/>
+                <constraint firstItem="0D4-cg-KF8" firstAttribute="top" secondItem="uSC-vt-D8H" secondAttribute="bottom" constant="24" id="eAC-Kk-kTz"/>
+                <constraint firstItem="0D4-cg-KF8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="eMh-3C-xdJ"/>
+                <constraint firstAttribute="trailing" secondItem="0D4-cg-KF8" secondAttribute="trailing" constant="-8" id="ihg-VD-Mfw"/>
+                <constraint firstItem="uSC-vt-D8H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="zMp-Of-cX4"/>
+                <constraint firstAttribute="bottom" secondItem="0D4-cg-KF8" secondAttribute="bottom" id="zlR-ug-f3K"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="caR-kG-hHy" id="Zao-rZ-VOC"/>
+                <outlet property="loginButton" destination="uSC-vt-D8H" id="kt8-Bw-19e"/>
+                <outlet property="registerButton" destination="pqV-II-28L" id="NiX-5z-B3U"/>
+            </connections>
+            <point key="canvasLocation" x="275.5" y="292"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="user_default" width="90" height="90"/>
+    </resources>
+</document>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorHeadeIcon</key>
+		<string>illness_img_person.png</string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string> </string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string> </string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string> </string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorHeadeIcon</key>
+		<string>illness_img_person.png</string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorHeadeIcon</key>
+		<string>illness_img_person.png</string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorHeadeIcon</key>
+		<string></string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorHeadeIcon</key>
+		<string></string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorHeadeIcon</key>
+		<string></string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorHeadeIcon</key>
+		<string></string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+	<dict>
+		<key>doctorLevelTitle</key>
+		<string>3</string>
+		<key>doctorNameTitle</key>
+		<string>王医生</string>
+		<key>doctorHeadeIcon</key>
+		<string></string>
+		<key>doctorHospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>addIcon</key>
+		<string></string>
+		<key>operation</key>
+		<string>手术 : 10</string>
+		<key>heartIcon</key>
+		<string></string>
+		<key>flowersCount</key>
+		<string>鲜花 : 100</string>
+		<key>pannantIcon</key>
+		<string></string>
+		<key>pennantCount</key>
+		<string>锦旗 : 10</string>
+	</dict>
+</array>
+</plist>

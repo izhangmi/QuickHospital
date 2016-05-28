@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Weather">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ws9-uI-5l7">
+                    <rect key="frame" x="15" y="10" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="KuD-ZG-y6t"/>
+                        <constraint firstAttribute="height" constant="40" id="Nj0-NS-tVY"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkS-fp-JXw">
+                    <rect key="frame" x="260" y="10" width="100" height="40"/>
+                    <color key="backgroundColor" red="0.10196078431372549" green="0.69803921568627447" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="eO6-T7-PLd"/>
+                        <constraint firstAttribute="width" constant="100" id="z3d-Tn-fK4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="北京"/>
+                    <connections>
+                        <action selector="chooseCityClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="ces-oE-Z5a"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iQ-q7-wih">
+                    <rect key="frame" x="63" y="10" width="182" height="40"/>
+                    <color key="backgroundColor" red="0.10196078431372549" green="0.69803921568627447" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="dsh-4q-7EP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4iQ-q7-wih" firstAttribute="leading" secondItem="ws9-uI-5l7" secondAttribute="trailing" constant="8" id="Ovf-1M-r0d"/>
+                <constraint firstAttribute="bottom" secondItem="4iQ-q7-wih" secondAttribute="bottom" constant="10" id="Tsd-c8-e1b"/>
+                <constraint firstAttribute="trailing" secondItem="EkS-fp-JXw" secondAttribute="trailing" constant="15" id="XnV-1K-Am1"/>
+                <constraint firstItem="ws9-uI-5l7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="eKy-0o-hIr"/>
+                <constraint firstItem="EkS-fp-JXw" firstAttribute="leading" secondItem="4iQ-q7-wih" secondAttribute="trailing" constant="15" id="kFV-0K-Dru"/>
+                <constraint firstAttribute="bottom" secondItem="EkS-fp-JXw" secondAttribute="bottom" constant="10" id="mNh-3g-KnE"/>
+                <constraint firstItem="ws9-uI-5l7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="q7v-Xh-GnK"/>
+                <constraint firstItem="EkS-fp-JXw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="qqK-6y-zNR"/>
+                <constraint firstAttribute="bottom" secondItem="ws9-uI-5l7" secondAttribute="bottom" constant="10" id="sob-Gq-U0o"/>
+                <constraint firstItem="4iQ-q7-wih" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="ufk-dt-yrk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cityNameButton" destination="EkS-fp-JXw" id="h4Z-Dw-9yh"/>
+                <outlet property="temperatureLabel" destination="4iQ-q7-wih" id="3A9-Z6-cBy"/>
+                <outlet property="weatherPic" destination="ws9-uI-5l7" id="vLX-cM-yO2"/>
+            </connections>
+            <point key="canvasLocation" x="199.5" y="105"/>
+        </view>
+    </objects>
+</document>

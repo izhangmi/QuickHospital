@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2378de31-1648-4d90-ac49-883ca156dbb9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "2378de31-1648-4d90-ac49-883ca156dbb9" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2378de31-1648-4d90-ac49-883ca156dbb9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "11ED29F6-A210-4749-BC2E-BA60CF468CEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2378de31-1648-4d90-ac49-883ca156dbb9" : "Quikhospital\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "快医",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/快医\/快医.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/Quikhospital",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2378de31-1648-4d90-ac49-883ca156dbb9"
+    }
+  ]
+}

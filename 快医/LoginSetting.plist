@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Header</key>
+		<string></string>
+		<key>Footer</key>
+		<string></string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>预约挂号列表</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKRegistrationViewController</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>名医通申请</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKMYTAllayViewController</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>病历管理</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKCasehistoryViewController</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>我的收藏</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKMyCollectViewController</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>支付明细</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKPaymentdetailsViewController</string>
+			</dict>
+			<dict>
+				<key>AccessoryType</key>
+				<string>   </string>
+				<key>AccessoryImgName</key>
+				<string>  </string>
+				<key>Title</key>
+				<string>  </string>
+				<key>TargetVc</key>
+				<string>KKMYTAllayViewController</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>设置与帮助</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKSettingAndHelpView</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>意见反馈</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKFeedbackViewController</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>HMHeader</key>
+		<string></string>
+		<key>HMFooter</key>
+		<string></string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>软件消息提醒</string>
+				<key>AccessoryType</key>
+				<string>UISwitch</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>联系客服</string>
+				<key>Subtitle</key>
+				<string>10086</string>
+				<key>Chect</key>
+				<string>callCustomerService</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>检查更新</string>
+				<key>Subtitle</key>
+				<string>V3.0.0</string>
+				<key>Chect</key>
+				<string>chectUpdate</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>用户协议</string>
+				<key>AccessoryType</key>
+				<string>UIImageView</string>
+				<key>AccessoryImgName</key>
+				<string>icon</string>
+				<key>TargetVc</key>
+				<string>KKUserTreatyController</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

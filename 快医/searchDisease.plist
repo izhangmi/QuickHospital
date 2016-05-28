@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <string>感冒(呼吸内科)</string>
+    <string>肺气肿(呼吸内科)</string>
+    <string>高血压(心血管内科)</string>
+    <string>哮喘(呼吸内科)</string>
+    <string>慢性胃炎(消化内科)</string>
+    <string>胃癌(消化内科)</string>
+    <string>便秘(消化内科)</string>
+    <string>尿路感染(肾内科)</string>
+    <string>慢性肾炎(肾内科)</string>
+    <string>肾积水(肾内科)</string>
+    <string>尿道炎(肾内科)</string>
+    <string>头痛(神经内科)</string>
+    <string>癫痫(神经内科)</string>
+    <string>神经衰弱(神经内科)</string>
+    <string>支气管扩张(呼吸内科)</string>
+    <string>先心病(心血管内科)</string>
+    <string>慢性腹泻(消化内科)</string>
+    
+    <string>先天性心脏病(外科)</string>
+    <string>肺癌(外科)</string>
+    <string>急性阑尾炎(外科)</string>
+    <string>股骨头坏死(外科)</string>
+    <string>腰肌劳损(外科)</string>
+    <string>骨质疏松(外科)</string>
+    <string>腰椎间盘突出症(外科)</string>
+    <string>直肠癌(外科)</string>
+    <string>胆结石(外科)</string>
+    <string>蛛网膜下腔出血(外科)</string>
+    <string>肛裂(外科)</string>
+    <string>胸腺瘤(外科)</string>
+    <string>肝包虫囊肿(外科)</string>
+    <string>肾结石(外科)</string>
+</array>
+</plist>

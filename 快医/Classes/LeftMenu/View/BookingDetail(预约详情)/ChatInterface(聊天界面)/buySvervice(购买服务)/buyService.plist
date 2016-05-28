@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>isSelected</key>
+		<true/>
+		<key>iconName</key>
+		<string></string>
+		<key>title</key>
+		<string>请选择支付方式:</string>
+		<key>isPrompt</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>isSelected</key>
+		<false/>
+		<key>iconName</key>
+		<string>zhifubaoPay</string>
+		<key>title</key>
+		<string>支付宝支付</string>
+		<key>isPrompt</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>isSelected</key>
+		<false/>
+		<key>iconName</key>
+		<string>weixinPay</string>
+		<key>title</key>
+		<string>微信支付</string>
+		<key>isPrompt</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>isSelected</key>
+		<false/>
+		<key>iconName</key>
+		<string>bankPay</string>
+		<key>title</key>
+		<string>银行支付</string>
+		<key>isPrompt</key>
+		<false/>
+	</dict>
+</array>
+</plist>

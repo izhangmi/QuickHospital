@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>money</key>
+		<string>-4.00</string>
+		<key>title</key>
+		<string>赠送 王医生</string>
+		<key>payData</key>
+		<string>2015-06-01  12:00</string>
+		<key>payThing</key>
+		<string>鲜花</string>
+	</dict>
+	<dict>
+		<key>money</key>
+		<string>-49.00</string>
+		<key>title</key>
+		<string>赠送 王医生</string>
+		<key>payData</key>
+		<string>2015-06-01  12:00</string>
+		<key>payThing</key>
+		<string>锦旗</string>
+	</dict>
+	<dict>
+		<key>money</key>
+		<string>-49.00</string>
+		<key>title</key>
+		<string>购买 王医生</string>
+		<key>payData</key>
+		<string>2015-06-01  12:00</string>
+		<key>payThing</key>
+		<string>10次咨询服务</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>hospitalIcon</key>
+		<string>illness_img_person.png</string>
+		<key>hospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>hospitalGrades</key>
+		<string>三级甲等</string>
+		<key>hospitalLocation</key>
+		<string>北京市东城区帅府园一号  1KM</string>
+	</dict>
+	<dict>
+		<key>hospitalIcon</key>
+		<string>illness_img_person.png</string>
+		<key>hospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>hospitalGrades</key>
+		<string>三级甲等</string>
+		<key>hospitalLocation</key>
+		<string>北京市东城区帅府园一号  1KM</string>
+	</dict>
+	<dict>
+		<key>hospitalIcon</key>
+		<string>illness_img_person.png</string>
+		<key>hospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>hospitalGrades</key>
+		<string>三级甲等</string>
+		<key>hospitalLocation</key>
+		<string>北京市东城区帅府园一号  1KM</string>
+	</dict>
+	<dict>
+		<key>hospitalIcon</key>
+		<string>illness_img_person.png</string>
+		<key>hospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>hospitalGrades</key>
+		<string>三级甲等</string>
+		<key>hospitalLocation</key>
+		<string>北京市东城区帅府园一号  1KM</string>
+	</dict>
+	<dict>
+		<key>hospitalIcon</key>
+		<string>illness_img_person.png</string>
+		<key>hospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>hospitalGrades</key>
+		<string>三级甲等</string>
+		<key>hospitalLocation</key>
+		<string>北京市东城区帅府园一号  1KM</string>
+	</dict>
+	<dict>
+		<key>hospitalIcon</key>
+		<string>illness_img_person.png</string>
+		<key>hospitalTitle</key>
+		<string>北京协和医院</string>
+		<key>hospitalGrades</key>
+		<string>三级甲等</string>
+		<key>hospitalLocation</key>
+		<string>北京市东城区帅府园一号  1KM</string>
+	</dict>
+</array>
+</plist>
